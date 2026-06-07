@@ -1,0 +1,6 @@
+<Mod 
+    name="Mina is a Camera (Ghost Mode)" 
+    description="Hold Left ALT to enter Ghost / NoClip mode. Release the key to teleport back to your original location."
+    request_those_privileges="0"
+    is_gameplay_mod="1" >
+</Mod>

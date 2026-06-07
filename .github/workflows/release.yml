@@ -1,0 +1,33 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Zip the mod folder
+        run: |
+          cd Mina-is-a-camera
+          zip -r ../Mina-is-a-camera.zip .
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          body: |
+            ## Astral Projection - ${{ github.ref_name }}
+            
+            ### Changes
+            - 
+          files: |
+            Mina-is-a-camera.zip
+          draft: false
+          prerelease: false
