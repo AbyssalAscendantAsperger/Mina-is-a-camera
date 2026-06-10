@@ -1,7 +1,7 @@
 # Astral Projection
 
 <p align="center">
-  <img src="mod.jpg" alt="Astral Projection Perk" width="600"/>
+  <img src="mod.png" alt="Astral Projection Perk" width="600"/>
 </p>
 
 In the base game of Noita, no perk feels truly worthy of accompanying a weary wizard through the entire chaotic journey from the very beginning to the late game. That is, until you install this mod — a simple yet powerful addition that introduces a brand new perk: **Astral Projection**.
